@@ -1,0 +1,466 @@
+
+.topnav {
+  overflow: hidden;
+    list-style-type: none;
+    border: 1px solid #000000;
+    background-color: #94A696;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: "Playfair Display", serif;
+
+}
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+    .topnav h2 {
+    float: left;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #6D1A2D;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #bfa2f5d8;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+  }
+  /* backgorund image and Hight County Logo*/ 
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    width: 89%;
+
+  }
+  
+  .image-container img {
+    display: block;          
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+  }   
+
+.about{
+  background-color: #94A696;
+  position: absolute; 
+  color: #000;
+  font-size: 64px;
+  text-decoration-line: underline;
+  padding-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+     
+ /* About Cindy and Sue */ 
+ .image-container2{
+  transform: translate(0px, -4px);
+  background-color: #A69498;
+  width: 89%;
+  height: auto;
+  margin-left: 100px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 5px;
+  gap: 20px;
+}
+
+.about2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  float: left;
+  padding: 25px 25px 25px 25px;
+}
+.card{
+  width: 70%;
+  float: right;
+  padding: 25px 25px 25px 25px;
+  background: linear-gradient(#6D1A2D, #6D1A2D); 
+} 
+
+
+/*  Section 3 three images*/
+.image-container3{
+  transform: translate(0px, -4px);
+  background-color: #94A696;
+  width: 88%;
+  margin-left: 100px;
+  border: 5px solid #153319;
+}
+.card1{
+  width: 20%;
+  padding: 20px 20px 20px 20px;
+
+}
+.card2{
+  width: 20%;
+  padding: 20px 20px 20px 20px;
+}
+.card3{
+  width: 20%;
+  padding: 20px 20px 20px 20px;
+}
+    
+.image-container6{
+  transform: translate(0px, -25px);
+  background-color: #A69498;
+  width: 89%;
+  height: 310px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 21px;
+  box-sizing: border-box;
+  
+}
+.info1{
+  float: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: "Playfair Display", serif;
+  width: 30%;
+  height: 265px;
+  text-align: center;
+  padding: 30px 25px 10px 29px;
+}
+
+
+
+
+.image-container7{
+  transform: translate(0px, -39px);
+  background-color: #94A696;
+  width: 89%;
+  margin-left: 100px;
+  align-items: center;
+}
+.footer{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: "Playfair Display", serif;  
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:120px)  {
+  .image-container {
+    max-width: 120px;
+    }
+  .about {
+    font-size: 10px;
+    max-width: 120px;
+    }
+  .image-container img {
+    max-width: 120px;
+    min-height: auto;
+    }
+  .image-container2 {
+    max-width: 120px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 5px;
+    }
+  .image-container3{
+    max-width: 120px;
+    min-height: auto;
+    }
+    .card1 {
+      width: 10%;
+      }
+    .card2 {
+      width: 10%;
+      }
+    .card3 {
+      width: 10%;
+      }
+  .image-container6{
+    max-width: 120px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 5px;
+    width: 10%;
+      }
+.image-container7{
+  max-width: 120px;
+  min-height: auto;
+      }
+      .footer{
+        font-size: 5px;
+      }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (min-width:381px)  {
+  .image-container {
+    max-width: 381px;
+  }
+  .about {
+    font-size: 12px;
+    max-width: 381px;
+  }
+  .image-container img {
+    max-width: 381px;
+  }
+  .image-container2 {
+    max-width: 381px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 7px;
+    }
+  .image-container3 {
+    max-width: 381px;
+    min-height: auto;
+    }
+    .card1 {
+      width: 12%;
+        }
+    .card2 {
+      width: 12%;
+        }
+    .card3 {
+      width: 12%;
+       }
+  .image-container6{
+    max-width: 381px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 6px;
+    width: 15%;
+     }
+     .image-container7{
+      max-width: 381px;
+      min-height: auto; 
+          }
+          .footer{
+            font-size: 10px;
+          }
+}
+  
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+@media (min-width:541px)  {
+  .image-container {
+    max-width: 541px;
+  }
+  .about{
+    font-size: 30px;
+    max-width: 541px;
+  }
+  .image-container img {
+    max-width: 541px;
+    min-height: 441;
+  }
+  .image-container2 {
+    max-width: 541px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 9px;
+      }
+  .image-container3 {
+    max-width: 541px;
+    min-height: auto;
+      }
+    .card1 {
+      width: 15%;
+        }
+    .card2 {
+      width: 15%;
+        }
+    .card3 {
+      width: 15%;
+        }
+  .image-container6{
+    max-width: 541px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 7px;
+    width: 20%;
+      }
+      .image-container7{
+        max-width: 541px;
+        min-height: auto; 
+            }
+            .footer{
+              font-size: 12px;
+            }          
+    }
+
+ /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:861px)  {
+  .image-container {
+    max-width: 861px;
+  }
+  .about {
+    font-size: 40px;
+    max-width: 861px;
+  }
+  .image-container img {
+    max-width: 861px;
+  }
+  .image-container2 {
+    max-width: 861px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 12px;
+      }
+  .image-container3 {
+      max-width: 861px;
+      min-height: auto;
+        }
+    .card1 {
+      width: 20%;
+        }
+    .card2 {
+      width: 20%;
+        }
+    .card3 {
+      width: 20%;;
+        }
+  .image-container6{
+    max-width: 861px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 9px;
+    width: 25%;
+     }
+     .image-container7{
+      max-width: 861px;
+      min-height: auto; 
+          }
+          .footer{
+            font-size: 14px;
+          }                   
+
+}
+
+ /* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) {
+  .image-container {
+    max-width: 1025px;
+  }
+  .about {
+    font-size: 50px;
+    max-width: 1025px;
+  }
+  .image-container img {
+    max-width: 1025px;
+  }
+  .image-container2 {
+    max-width: 1025px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 15px;
+        }
+  .image-container3 {
+    max-width: 1025px;
+    min-height: auto;
+            }
+    .card1 {
+      width: 25%;
+        }
+    .card2 {
+      width: 25%;
+        }
+    .card3 {
+      width: 25%;
+        }
+  .image-container6{
+    max-width: 1025px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 10px;
+    width: 28%;
+    }
+    .image-container7{
+      max-width: 1025px;
+      min-height: auto; 
+          }
+          .footer{
+            font-size: 14px;
+          }                     
+}
+
+ /* hi-res laptops and desktops */ 
+@media (min-width:1689px) {
+  .image-container {
+    max-width: 1689px;
+  }
+  .about {
+    font-size: 64px;
+    max-width: 1689px;
+  }
+  .image-container img {
+    max-width: 1689px;
+  }
+  .image-container2 {
+    max-width: 1689px;
+    min-height: auto;
+    }
+  .about2 {
+    font-size: 16px;
+      }
+  .image-container3 {
+    max-width: 1689px;
+    min-height: auto;
+        }
+    .card1 {
+      width: 30%;
+      }
+    .card2 {
+      width: 30%;
+      }
+    .card3 {
+      width: 30%;
+      }
+  .image-container6{
+    max-width: 1689px;
+    min-height: auto; 
+      }
+  .info1{
+    font-size: 16px;
+    width: 30%;
+      }
+      .image-container7{
+        max-width: 1689px;
+        min-height: auto; 
+            }
+            .footer{
+              font-size: 16px;
+            }     
+    }
