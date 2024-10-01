@@ -1,0 +1,355 @@
+* body{
+  background-color: #000000; 
+
+}
+/*navBar */
+.topnav {
+    background-color: #4E171A;
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Montserrat", sans-serif;
+    }
+  
+.rightS, .leftS {
+    list-style-type: none;
+    }
+  
+.rightS li, .leftS li {
+    display: inline-block;
+    padding-right: 25px;
+    }
+  
+.rightS li a, .leftS li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    font-family: "arial","sans-serif";
+    margin: 0;
+    }
+  
+.rightS li a:hover, .leftS li a:hover {
+    background-color: #6D0004;
+  }
+
+  /*Welcome Section */
+.Maintext{
+    color: white;
+    text-align: center;
+    background-image: url("file:///C:/Users/amy/Documents/CODING/Projects/Website/Resources/IMG_5588.jpg");
+    font-family: "arial","sans-serif";
+    border: 5px solid rgb(0, 0, 0);
+    padding: 230px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 10px;
+    max-width: 100%;
+
+    }
+
+.text1 h1{
+line-height: 65pt;
+font-size: clamp(50px, 8vw, 100px);
+text-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.text1A h4{
+  line-height: 20pt;
+  font-size: clamp(30px, 2vw, 100px);
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+
+/*Second Section */ 
+.Container1{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #454C5E;
+    display: flex;
+    padding: 70px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.text2{
+  color: white; 
+  width: 80%;
+  text-align: center;
+  padding-right: 35px;
+  background-color: #241414;
+  border: 5px solid #4E171A;
+}
+.text2A{
+    color: white; 
+    width: 50%;
+    text-align: center;
+    background-color: #241414;
+    border: 5px solid #4E171A;
+  }
+
+
+
+  /*Third Section */
+  .Container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #1A1C29;
+    color: white; 
+    border: 5px solid #000000;
+  }
+
+  .Container2 h2{
+    font-size: 35px;
+  }
+
+  .Container3{
+    background-color: #1A1C29;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+  }                                   
+
+  .text3{
+    flex: 1 200px;
+  }
+  .text3 h4 {
+    font-size: 25px; 
+  }
+  .text3 a {
+    font-size: 14px; 
+    color: white; 
+  }
+
+
+  .text3A{
+    flex: 1 200px;
+  }
+  .text3A h4 {
+    font-size: 25px; 
+  }
+  .text3A a {
+    font-size: 14px; 
+    color: white; 
+  }
+
+
+  .text3B{
+    flex: 1 200px;
+  }
+  .text3B h4 {
+    font-size: 25px; 
+  }
+
+  .text3B a {
+    font-size: 14px; 
+    color: white; 
+  }
+
+  img{
+    width: 90%;
+    height: auto; 
+  }
+
+  img:hover {
+    transform: scale(1.2); 
+  }
+
+
+    /*Fourth Section */
+    .Container4{
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #1A1C29;
+      color: white; 
+      border: 5px solid #000000;
+    }
+  
+    .Container5{
+      background-color: #1A1C29;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: white; 
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+
+    }                                   
+  
+    .text4{
+      flex: 1 200px;
+    }
+    .text4A{
+      flex: 1 200px;
+    }
+    .text4B{
+      flex: 1 200px;
+    }
+  
+  
+    .text4 h4 {
+      font-size: 25px; 
+    }
+  
+    .text4 p {
+      font-size: 14px; 
+    }
+
+    .text4A h4 {
+      font-size: 25px; 
+    }
+  
+    .text4A p {
+      font-size: 14px; 
+    }
+
+    .text4B h4 {
+      font-size: 25px; 
+    }
+  
+    .text4B p {
+      font-size: 14px; 
+    }
+
+
+
+ /*Fifth Section */
+
+    .Container6{
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #1A1C29;
+      color: white; 
+      border: 5px solid #000000;      
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .Container7{
+      background-color: #1A1C29;
+      margin-left: 20px;
+      margin-right: 20px;
+      color: white; 
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+    }      
+
+    .text5{
+      flex: 1 200px;
+
+    }
+    .text5A{
+      flex: 1 200px;
+
+    }
+    .text5B{
+      flex: 1 200px;
+
+    }
+
+    .text5 h4 {
+      flex: 1 200px;
+      font-size: 25px; 
+    }
+  
+    .text5 h5 {
+      font-size: 14px; 
+    }
+
+    .text5A h4 {
+      flex: 1 200px;
+      font-size: 25px; 
+    }
+  
+    .text5A h5 {
+      font-size: 14px; 
+    }
+
+    .text5B h4 {
+      flex: 1 200px;
+      font-size: 25px; 
+    }
+  
+    .text5B h5 {
+      font-size: 14px; 
+    }
+
+
+ /*Footer */
+    .textB{
+      color: white;
+      background-color: #4E171A;
+      text-align: center;
+      font-family: "arial","sans-serif";
+      font-size: 16px;
+      padding: 5px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 410px) {
+    .topnav {
+      display: flex;
+      overflow: hidden;
+      padding-right: 20px;
+      margin-bottom: 0px;
+      margin-left: 5px;
+      margin-right: 5px;
+      }
+
+
+    .Maintext{
+      border: 5px solid rgb(0, 0, 0);
+      padding: 45px;
+      margin-left: 5px;
+      margin-right: 5px;
+      line-height: 5px;
+      }
+
+
+  }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+
+
+}
+
