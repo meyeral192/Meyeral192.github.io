@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+}
+
+/*navBar */
+.topnav {
+    background-color: #33200F;
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+  
+  .rightS, .leftS {
+    list-style-type: none;
+    }
+  
+  .rightS li, .leftS li {
+    display: inline-block;
+    padding-right: 25px;
+    }
+  
+  .rightS li a, .leftS li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    }
+  
+  .rightS li a:hover, .leftS li a:hover {
+    background-color: #6B3854;
+  }
+/*WelcomeSection */
+  .containerS1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    background-color: #D3B295;
+  }
+
+  .containterA{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+  .containterA img{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+  .textA{
+    background-color: #6B3854;
+    padding: 15px;
+    position: absolute;
+    font-size: 36px;
+    color: white;  
+    text-align: center;
+    left: 42%;
+    top: 15%;
+    }
+.textB p{ 
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  left: 20%;
+  top: 55%; 
+  padding: 10px;
+  text-align: center; 
+  background-color: #8C697A;
+}
+
+/*Knitting Tools */
+  .knitT{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+  }
+
+  .knitText h2{
+    font-size: 30px;
+    background-color: #6B3854;
+    padding: 10px;
+  }
+
+  .allRows{
+    box-sizing: border-box;
+  }
+  .allColumns{
+    float: left;
+    width: 33.3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 270px;
+    text-align: center;
+  }
+.allColumns img{
+  width: 33.33%;
+  border-image: linear-gradient(150deg, #8C697A, #3b3337) 1;
+  border-width: 15px;
+  border-style: solid; 
+}
+.allColumns h4{
+  margin-top: 10px;
+  font-size: 18;
+  padding-top: 10px;
+  background-color: #8C697A;
+}
+.allColumns p{
+  font-size: 16;
+  padding-bottom: 10px;
+  background-color: #8C697A;
+}
+  .allRows:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Yarn */
+  .Yarn1{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+   
+  }
+  .YarnText h2{
+    font-size: 30px;
+    background-color: #6B3854;
+    padding: 10px;
+  }
+
+
+  .allRowsY1{
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    background-color: #D3B295;
+  }
+  .allColumnsY1{
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 230px;
+    text-align: center;
+  }
+
+  .allColumnsY1 img{
+    width: 33.33%;
+    border-image: linear-gradient(150deg, #3b3337, #8C697A ) 1;
+    border-width: 15px;
+    border-style: solid; 
+  }
+  .allRowsY1 p{
+    font-size: 16;
+    padding-bottom: 10px;
+    background-color: #8C697A;
+  }
+
+ /*get together */
+  .getT1{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    background-color: #D3B295;
+  }
+  .getT2Text h2{
+    font-size: 30px;
+    background-color: #6B3854;
+    padding: 10px;
+  }
+
+  .getT2Text2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 6px solid #8C697A;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-image: url("file:///C:/Users/amy/Documents/CODING/Projects/Project2/Resources/IMG_5252.jpg");
+  }
+  .getT2Text2 h3{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #8C697A;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .getT2Text2 p{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #8C697A;
+    margin-left: 200px;
+    margin-right: 200px;
+
+  }
+
+  /*Footer */
+.end1{
+  margin-left: 100px;
+  margin-right: 100px;
+  color: white;
+  background-color: #33200F;
+  text-align: center;
+  padding: 10px
+  
+}
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
