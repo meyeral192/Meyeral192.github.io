@@ -1,0 +1,239 @@
+.body{
+    background-color: #DCC5E6;
+}
+.topnav {
+    overflow: hidden;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #522066;
+    background-color: #B19FB8;
+  }
+  
+  .tea{
+    padding: 5px;
+    height: 50px;
+}  
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 10px 14px;
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #DF8FFF;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #bfa2f5d8;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+
+  }
+
+  
+  /* Tools*/
+    /* Meyer's yarn gorup text*/
+  .group{
+    text-align: center;
+    font-size: 40px;
+    background-color: #B19FB8;
+    font-family: 'Courgette', cursive;
+
+  }
+  .group h1{
+    text-shadow: 3px 3px 4px #ffffff;
+    background-image: url(file:///C:/Users/amy/Documents/CODING/Projects/Project5/Resources/IMG_5784.jpg);
+  }
+
+
+  .meyer{
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  border: 2px solid #522066;
+  text-align: center;
+  background-color: #B19FB8;
+  }
+
+
+     /* Image and text 1*/
+  .container{
+    margin: 80px;
+    margin-top: 10px;
+    width: 75%;
+    font-family: 'Courgette', cursive;
+  }
+  .img1{
+    max-width: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 4px solid #522066;
+  }
+  .text h2{
+    font-family: 'Courgette', cursive;
+  }
+  .text{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+  }
+    /* Image and text 2*/
+  .container2{
+    margin: 80px;
+    margin-top: 260px;
+    width: 75%;
+    font-family: 'Courgette', cursive;
+  }
+  .img2{
+    max-width: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 4px solid #522066;
+    height:auto;
+  }
+  .text1 h2{
+    font-family: 'Courgette', cursive;;
+    font-size: 35px;
+    height:auto;
+  }
+  .text1{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    height:auto;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  /* images */
+.yarn{
+  font-family: 'Courgette', cursive;
+  font-size: 25px;  
+  margin-top: 270px;
+  background-color: #B19FB8;
+  height:auto;
+}
+.image-grid{
+  font-family: 'Courgette', cursive; 
+  margin-left: 30px;
+  height:auto;
+}
+.img3{
+  max-width: 170px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+  border: 4px solid #522066;
+  height:auto;
+}
+.times{
+  font-family: 'Courgette', cursive;
+  font-size: 25px;  
+  margin-top: 450px;
+  background-color: #B19FB8;
+  height:auto;
+
+}
+
+.responsive1{
+  width: 100%;
+  height: auto;
+}
+.box{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.box img{
+  max-width: 100%;
+  height: auto;
+  
+}
+.img4{
+  float: center;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 2px solid #522066;
+  height:auto;
+}
+
+.box-text3{
+  position: absolute;
+  top: 35%;
+  color:#DF8FFF;
+  margin-left: 250px;
+  background-color: #000000;
+  height:auto;
+}
+.box-text3 h4{
+  color: rgb(255, 255, 255);
+  margin-left: 40px;
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 5px;
+  background-color: #000000;
+  height:auto;
+  max-height: 300px;
+ 
+}
+.box-text3 p{
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  font-family: 'Courgette', cursive;  
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 20px;
+  background-color: #000000;
+  height:auto;
+}
+.box-text4{
+  position: absolute;
+  top: 210%;
+  margin-left: 790px;
+  font-family: 'Courgette', cursive; 
+  height:auto; 
+  display: inline-block;
+}
+.box-text4 h4{
+font-family: 'Courgette', cursive;
+font-size: 25px; 
+height:auto;
+display: inline-block;
+
+}
+.box-text4 p{
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.footer{
+  font-family: 'Courgette', cursive;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #B19FB8;
+  border: 1px solid #522066;
+}
+/* Smartphones (portrait and landscape) ----------- */
+
+
+@media (min-width:120px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:381px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:541px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:861px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
