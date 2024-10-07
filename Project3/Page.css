@@ -1,0 +1,132 @@
+.Body{
+    background-color: #1E2601;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*navBar */
+.topnav {
+    background-color: #273D59;
+    display: flex;
+    justify-content:space-between;
+    overflow: hidden;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+    }
+  
+.rightS, .leftS {
+    list-style-type: none;
+    }
+  
+.rightS li, .leftS li {
+    display: inline-block;
+    padding-right: 25px;
+    }
+  
+.rightS li a, .leftS li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    }
+  
+.rightS li a:hover, .leftS li a:hover {
+    background-color: #6D0004;
+  }
+
+/*Top Text */
+  .trip-text{
+    color: white;
+    background-image: url("file:///C:/Users/amy/Documents/CODING/Projects/Project5/Resources/Cover%20Image.jpeg");
+    text-align: center;
+    font-size: 46px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    border: 8px solid #3F76A6;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-shadow: 3px 3px #000000
+  }
+
+  /* Main */
+  .container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 200px  180px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+
+  }
+
+  .gallery-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+  }
+
+  .gallery-item .image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 8px solid #A9A9A9;
+  }
+
+  .gallery-item .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    
+  }
+
+  .gallery-item:hover .image img{
+    transform: scale(1.5);
+  }
+
+  .w-1{
+    grid-column: span 1;
+  }
+
+  .w-2{
+    grid-column: span 2;
+  }
+  .w-3{
+    grid-column: span 3;
+  }
+  .w-4{
+    grid-column: span 4;
+  }
+  .w-5{
+    grid-column: span 5;
+  }
+  .w-6{
+    grid-column: span 6;
+  }
+
+  .h-1{
+    grid-row: span 1;  
+  }
+  .h-2{
+    grid-row: span 2;  
+  }
+  .h-3{
+    grid-row: span 3;  
+  }
+  .h-4{
+    grid-row: span 4;  
+  }
+  .h-5{
+    grid-row: span 5;  
+  }
+  .h-6{
+    grid-row: span 6;  
+  }
